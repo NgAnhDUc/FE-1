@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recland</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="swapper header-swapper">
+            <a href="/" class="logo">
+                <img src="assets/images/logo.png" alt="Recland">
+            </a>
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a href="#" title="Tất Cả Các Job" class="header_nav__link btn">Tất Cả Các Job</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#" title="Đăng ký" class="header_nav__link btn btn-border">Đăng ký</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#" title="Đăng Nhập" class="header_nav__link btn btn-solid">Đăng Nhập</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!-- End Header -->
+    <!-- Banner -->
+    <div class="banner">
+        <img src="assets/images/banner.png" alt="Banner Recland">
+    </div>
+
+    <!-- End Banner -->
+    <div class="swapper container">
+        <!-- Search -->
+        <div class="form-search-layout">
+            <form class="form-search">
+                <div class="form-search-input">
+                    <div class="form-search_icon">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 20.5126C15.9706 20.5126 20 16.4832 20 11.5126C20 6.54207 15.9706 2.51263 11 2.51263C6.02944 2.51263 2 6.54207 2 11.5126C2 16.4832 6.02944 20.5126 11 20.5126Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M18.9299 21.2024C19.4599 22.8024 20.6699 22.9624 21.5999 21.5624C22.4499 20.2824 21.8899 19.2324 20.3499 19.2324C19.2099 19.2224 18.5699 20.1124 18.9299 21.2024Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <input type="text" placeholder="Nhập vị trí hoặc từ khóa..." id="search">
+                </div>
+                <div class="form-search_option">
+                    <div class="form-search_option_icon">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.5 11.0131C14.5 9.63187 13.3808 8.51263 12.0005 8.51263C10.6192 8.51263 9.5 9.63187 9.5 11.0131C9.5 12.3934 10.6192 13.5126 12.0005 13.5126C13.3808 13.5126 14.5 12.3934 14.5 11.0131Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9995 21.5126C10.801 21.5126 4.5 16.411 4.5 11.0759C4.5 6.89927 7.8571 3.51263 11.9995 3.51263C16.1419 3.51263 19.5 6.89927 19.5 11.0759C19.5 16.411 13.198 21.5126 11.9995 21.5126Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span>Chọn địa điểm</span>
+                    </div>
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.92 9.46265L13.4 15.9826C12.63 16.7526 11.37 16.7526 10.6 15.9826L4.07996 9.46265"
+                            stroke="#999999" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <button type="submit" class="btn btn-solid form-search_btn">Tìm Kiếm</button>
+            </form>
+        </div>
+
+        <!-- End Search -->
+        <!-- Suggest List -->
+        <div class="suggest-wrap">
+            <span class="suggest-title">
+                Đề xuất:
+            </span>
+            <ul class="suggest-list">
+                <li class="suggest-item">Reactjs</li>
+                <li class="suggest-item">VueJS</li>
+                <li class="suggest-item">Angular</li>
+                <li class="suggest-item">Design</li>
+                <li class="suggest-item">.NET</li>
+                <li class="suggest-item">PHP</li>
+                <li class="suggest-item">java</li>
+                <li class="suggest-item">Mobile</li>
+            </ul>
+        </div>
+        <!-- End Suggest List -->
+        <!-- Job List -->
+        <div class="job-wrap">
+            <!-- Job Header -->
+            <div class="job-header">
+                <div class="job-header_headingWrap">
+                    <div class="job-header_iconWrap">
+                        <div class="job-header_icon"><svg width="25" height="21" viewBox="0 0 25 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24.2867 6.60341C24.2867 14.855 16.6522 19.7213 13.2317 20.885C12.8262 21.0261 12.1738 21.0261 11.7683 20.885C10.3048 20.3913 8.06564 19.21 6.00275 17.3939C3.21696 14.9431 0.713272 11.3287 0.713272 6.60341C0.713272 2.95367 3.6401 0.00921631 7.25457 0.00921631C9.40563 0.00921631 11.3099 1.04946 12.5088 2.6363C13.6901 1.04946 15.5943 0.00921631 17.7454 0.00921631C18.6799 0.00921631 19.5614 0.203159 20.3725 0.555791C22.6822 1.57842 24.2867 3.88815 24.2867 6.60341Z"
+                                    fill="#FE4C4C" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="job-header_heading heading">Jobs tốt nhất</div>
+                </div>
+                <div class="job-header-link">Xem Tất Cả</div>
+            </div>
+            <!-- End Job Header -->
+            <!-- Job Card List -->
+            <!-- End Job Card List -->
+        </div>
+        <!-- End Job List -->
+    </div>
+</body>
+
+</html>
